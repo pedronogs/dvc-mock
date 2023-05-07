@@ -5,5 +5,8 @@ stages:
     - train.py
   evaluate:
     cmd: python test.py
+    metrics:
+    - metrics.json:
+        cache: false
     deps:
     - test.py
