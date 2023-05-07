@@ -23,5 +23,6 @@
                 "esbenp.prettier-vscode"
             ]
         }
-    }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
 }
