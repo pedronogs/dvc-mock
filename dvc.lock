@@ -4,12 +4,12 @@ stages:
     cmd: python test.py
     deps:
     - path: test.py
-      md5: c2a9d04c7ae38e8634dcf160e5aac663
-      size: 98
+      md5: 38b394a061a83ded9cd7c3dbf7bfa836
+      size: 126
     outs:
     - path: metrics.json
-      md5: 8d6fefe9e2895ebcc7281bc761e796ee
-      size: 18
+      md5: c59475746301539eb98708fa26562cac
+      size: 46
   train:
     cmd: python train.py
     deps:
