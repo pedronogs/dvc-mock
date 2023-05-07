@@ -4,6 +4,6 @@
 ['remote "s3"']
     url = s3://test
     endpointurl = https://minio:9000
-    credentialpath = ../aws_credentials
+    credentialpath = /workspace/aws_credentials
     ssl_verify = false
     use_ssl = false

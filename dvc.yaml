@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - train.py
+  evaluate:
+    cmd: python test.py
+    deps:
+    - test.py
