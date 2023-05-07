@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  evaluate:
+    cmd: python test.py
+    deps:
+    - path: test.py
+      md5: 231496871f9a2ed5404086f91b6ef55f
+      size: 13
+  train:
+    cmd: python train.py
+    deps:
+    - path: train.py
+      md5: 41dc07cfbd14f2a9b68bfc0ca17051cd
+      size: 14
